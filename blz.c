@@ -397,7 +397,7 @@ char *BLZ_Code(unsigned char *raw_buffer, int raw_len, int *new_len, int best) {
     mask >>= BLZ_SHIFT;
     *flg <<= 1;
   }
-11
+  
   pak_len = pak - pak_buffer;
 
   BLZ_Invert(raw_buffer, raw_len);
